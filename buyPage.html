@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LoginForm</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="flex">
+    <div class="container_log">
+        <div class="user"></div>
+        <form action="index.php" method="post" >
+            <h1>Buy using Watheeq App </h1>
+            <div class="input">
+                <input type="text" name="secKey" required />
+                <label>Enter the secret key</label>
+            </div>
+                <input type="radio" name="card" value="Visa" required checked/>
+                <label>Visa</label>
+
+                <input type="radio" name="card" value="Master" required />
+                <label>Master</label>
+                <input type="radio" name="card" value="paypal" required />
+                <label>paypal</label>
+                <br><br>
+                <img src="visasymbol.png" alt="" srcset="" height="55" width="70">
+                <img src="mastercard_logo.png" alt="" srcset="" height="55" width="70">
+                <img src="paypal.png" alt="" srcset="" height="55" width="70">
+                <br>
+            <input class="L_btn" type="submit" value="submit" />
+        </form>
+
+    </div>
+</body>
+
+</html>
